@@ -38,7 +38,7 @@ function UserProfile() {
         </p>
       </div>
 
-      {/* links to Products and Cart */}
+     
       <ul className="nav fs-5 p-3 justify-content-around my-2 mb-5">
         <li className="nav-item ff">
           <Link to="products" className="nav-link text-light">

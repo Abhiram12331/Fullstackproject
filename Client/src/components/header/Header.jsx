@@ -51,6 +51,10 @@ function Header() {
             <IoMdInformationCircle className="fs-3 text-dark me-2 " />{" "}
             Aboutus
           </Link>
+         < Link to="profile" className="nav-link text-dark">
+            <IoMdInformationCircle className="fs-3 text-dark me-2 " />{" "}
+            profile
+          </Link>
         </li>
       </ul>
     </div>

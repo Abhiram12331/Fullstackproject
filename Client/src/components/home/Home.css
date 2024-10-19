@@ -69,6 +69,18 @@ header {
       
     }
     }
+    .mp{
+        margin-left: auto !important;
+        font-size: 22px !important;
+    }
+    @media screen and (width <= 800px) {
+        .ma
+        {
+         width:80vw !important;
+        
+          
+        }
+        }
 .home_header_info a {
     background-color: #fff;
     color: #138808;
@@ -138,16 +150,27 @@ section#slides_parent {
     position: relative;
     transition: all 0.5s ease;
 }
-
-.slide_1:hover {
-    min-width: 250px;
-}
-
 .slide_1:hover .slide_info {
     transform: rotate(0deg);
     left: 20px;
     bottom: 20px;
     font-size: 22px;
+
+}
+.slide_1:hover {
+    min-width: 250px;
+}
+@media screen and (width <= 1000px) {
+
+
+.slide_info {
+    transform: rotate(0deg) !important;
+    left: 20px !important;
+    bottom: 20px !important;
+    font-size: 35px !important;
+
+}
+
 }
 
 .slide_2 {

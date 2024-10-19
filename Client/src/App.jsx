@@ -28,6 +28,26 @@ function App() {
           element: <Register />,
         },
         {
+          path:'profile',
+          element:<UserProfile />,
+          children:[
+            {
+              path:'products',
+              element:<Products />
+            },
+            {
+              path:'cart',
+              element:<Cart />
+            },
+           
+            //navigate to Products component when page is empty
+            {
+              path:'',
+              element:<Navigate to={'products'} />
+            }
+          ]
+        },
+        {
           path: "login",
           element: <Login />,
         },

@@ -6,11 +6,11 @@ function Footer() {
   return (
     <footer id="Footer">
     <div className="container ">
-      <div className="row w-100 p-3">
-            <div className="footer-1 d-flex flex-column justify-content-center col-3">
+      <div className="row kk">
+            <div className="footer-1 d-flex flex-column justify-content-center FF ">
                 <h2>Travel with us</h2>
             </div>
-            <div className="footer-2 col-3 fot-info">
+            <div className="footer-2 col-md-12 col-lg-4 fot-info">
                 <h3>Dekho Apna Desh!</h3>
                 <ul>
                     <li><a href="https://indianculture.gov.in/">Indian Culture</a></li>
@@ -19,7 +19,7 @@ function Footer() {
                     <li><a href="https://swachhbharatmission.gov.in/SBMCMS/index.htm">Swachh Bharat</a></li>
                 </ul>
             </div>
-            <div className="footer-3 col-3 fot-info">
+            <div className="footer-3  col-md-12 col-lg-4 fot-info">
                 <h3>Visit For More</h3>
                 <ul>
                     <li><a href="https://www.mygov.in/">My Government</a></li>
@@ -27,7 +27,7 @@ function Footer() {
                     <li><a href="https://tourism.gov.in/">Ministry of Tourism</a></li>
                 </ul>
             </div>
-            <div className="footer-4 col-3 fot-info">
+            <div className="footer-4 col-lg-4 col-md-12 fot-info">
                 <h3>Contact Us</h3>
                 <ul>
                     <li><a href="https://github.com/">GOWTHAM CHOWDARY</a></li>
