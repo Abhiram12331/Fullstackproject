@@ -55,7 +55,20 @@ header {
     width: 80%;
     margin: 0 auto;
 }
-
+@media screen and (width > 1000px) {
+.margin_class
+{
+  margin-left :12.5% !important;
+  
+}
+}
+@media screen and (width <= 1000px) {
+    .m
+    {
+      margin-bottom :5% !important;
+      
+    }
+    }
 .home_header_info a {
     background-color: #fff;
     color: #138808;

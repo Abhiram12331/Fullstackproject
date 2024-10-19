@@ -26,42 +26,48 @@ function Home() {
 </section>
 
 <section id="slides_parent">
-  <div className="container">
+  <div className="co">
     <div className="slides">
-      <div className="slide_1">
-        <div className="slide_info">
+      
+        <div className="container ">
+          <div className="row margin_class">
+          <div className=" m slide_1 col-sm-12 col-md-12 col-lg-1">
+          <div className="slide_info ">
           <p>Modhera Sun Temple</p>
         </div>
       </div>
-      <div className="slide_1 slide_2">
+      <div className="m slide_1 slide_2 col-sm-12 col-md-12 col-lg-1">
         <div className="slide_info">
           <p>Adi Annamalai temple</p>
         </div>
       </div>
-      <div className="slide_1 slide_3">
+      <div className="m slide_1 slide_3 col-sm-12 col-md-12 col-lg-1">
         <div className="slide_info">
           <p>Western Ghats</p>
         </div>
       </div>
-      <div className="slide_1 slide_4">
+      <div className="m slide_1 slide_4 col-sm-12 col-md-12 col-lg-1">
         <div className="slide_info">
           <p>Red Fort</p>
         </div>
       </div>
-      <div className="slide_1 slide_5">
+      <div className="m slide_1 slide_5 col-sm-12 col-md-12 col-lg-1">
         <div className="slide_info">
           <p>Chhatrapati Shivaji Terminus</p>
         </div>
       </div>
-      <div className="slide_1 slide_6">
+      <div className=" m slide_1 slide_6 col-sm-12 col-md-12 col-lg-1">
         <div className="slide_info">
           <p>Bandipur National Park</p>
         </div>
       </div>
-      <div className="slide_1 slide_7">
+      <div className=" m slide_1 slide_7 col-sm-12 col-md-12 col-lg-1">
         <div className="slide_info">
           <p>Ganga Aarti</p>
         </div>
+          </div>
+        </div>
+        
       </div>
     </div>
   </div>
