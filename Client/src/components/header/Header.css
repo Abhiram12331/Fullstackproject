@@ -1,0 +1,15 @@
+.header{
+    background-color:#c8d8db; 
+  
+      width: 100%; /* Full width */
+     
+      box-shadow: 0 4px 6px rgba(242, 239, 239, 0.1); /* Subtle shadow effect */
+    
+    }
+    
+    .header h1{
+        color:#ff6600 !important;
+        margin-top: 20px;
+    }
+
+    

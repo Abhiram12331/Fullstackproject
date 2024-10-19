@@ -1,0 +1,22 @@
+.gg{
+    background-color: #f5f7f8;
+    height:500px;
+    border-radius: 15px;
+    
+  
+}
+.gb{
+    background-color: #70a3ad;
+    color:white;
+    font-weight:600;
+    border-radius:15px;
+    padding: 10px;
+    width:300px;
+    border-width: 0px;
+  
+    
+}
+.jh{
+    height: 250px;
+    border-radius: 15px;
+}
