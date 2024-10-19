@@ -18,7 +18,7 @@ function UserProfile() {
   }
 
   if (!currentUser) {
-    return <p>Loading...</p>; // Add a loading state or redirect if necessary
+    return <p>Please register......</p>; // Add a loading state or redirect if necessary
   }
 
   return (

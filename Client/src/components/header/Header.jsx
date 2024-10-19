@@ -7,6 +7,7 @@ import { IoMdInformationCircle } from "react-icons/io";
 import { FcStumbleupon } from "react-icons/fc";
 import { userLoginContext } from "../../contexts/userLoginContext";
 import { useContext } from "react";
+import { CgProfile } from "react-icons/cg";
 import { FaHome } from "react-icons/fa";
 
 
@@ -51,11 +52,13 @@ function Header() {
             <IoMdInformationCircle className="fs-3 text-dark me-2 " />{" "}
             Aboutus
           </Link>
-         < Link to="profile" className="nav-link text-dark">
-            <IoMdInformationCircle className="fs-3 text-dark me-2 " />{" "}
-            profile
-          </Link>
+         
+
         </li>
+        <li>< Link to="profile" className="nav-link text-dark">
+            <CgProfile className="fs-3 text-dark me-2 " />{" "}
+            profile
+          </Link></li>
       </ul>
     </div>
   );
