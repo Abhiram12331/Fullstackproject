@@ -8,6 +8,7 @@ import { CiEdit } from "react-icons/ci";
 import { useNavigate } from "react-router-dom";
 import { BiLike } from "react-icons/bi";
 import { TbUserEdit } from "react-icons/tb";
+import Register from "../register/Register";
 
 function UserProfile() {
   let { currentUser } = useContext(userLoginContext);
@@ -18,7 +19,7 @@ function UserProfile() {
   }
 
   if (!currentUser) {
-    return <p>Please register......</p>; // Add a loading state or redirect if necessary
+    return(<Register/>);
   }
 
   return (

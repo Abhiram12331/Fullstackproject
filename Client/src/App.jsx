@@ -27,6 +27,8 @@ function App() {
           path: "register",
           element: <Register />,
         },
+       
+       
         {
           path:'profile',
           element:<UserProfile />,

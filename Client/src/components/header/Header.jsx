@@ -57,7 +57,7 @@ function Header() {
         </li>
         <li>< Link to="profile" className="nav-link text-dark">
             <CgProfile className="fs-3 text-dark me-2 " />{" "}
-            profile
+            Profile
           </Link></li>
       </ul>
     </div>
