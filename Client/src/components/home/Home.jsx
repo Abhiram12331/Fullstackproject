@@ -76,6 +76,29 @@ function Home() {
 
 
 
+<section id="explore-fiji">
+            <center>
+                <h1>Locate Top Heritage Sites in India!</h1>
+            </center>
+            <br /><br />
+            <center>
+                <p>
+                    <h4>
+                        This map depicts the top ten historical sites in India in terms of their geographical location.<br />
+                        Click on any pointer to learn more about the place and to appreciate the diversity!
+                    </h4>
+                </p>
+            </center>
+            <br /><br />
+            <center>
+               
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qYYRFFVXIlnyy79xW_KCHQF0Arr7Qqw&ehbc=2E312F" title="Heritage Sites in India" width="60%" height="480"></iframe>
+            </center>
+        </section>
+
+
+
+
     </main>
   );
 }
