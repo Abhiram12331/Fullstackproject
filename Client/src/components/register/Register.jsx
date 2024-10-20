@@ -18,7 +18,7 @@ function Register() {
   //on user submit
   async function onUserRegister(newUser) {
     try {
-      let res = await fetch("http://localhost:3000/user-api/users", {
+      let res = await fetch("https://full-stack-project-backend-vxpi.onrender.com/user-api/users", {
         method: "POST",
         headers: { "Content-type": "application/json" },
         body: JSON.stringify(newUser),
