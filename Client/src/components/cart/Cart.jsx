@@ -89,7 +89,7 @@ function Cart() {
   // Get products from cart by username
   async function getUserCart() {
     try {
-      const res = await fetch(`http://localhost:3000/user-api/cart/${currentUser.username}`);
+      const res = await fetch(`https://full-stack-project-backend-vxpi.onrender.com/user-api/cart/${currentUser.username}`);
       const data = await res.json();
       setCart(data.payload.products);
     } catch (error) {
