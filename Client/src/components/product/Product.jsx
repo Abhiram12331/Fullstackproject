@@ -16,7 +16,7 @@ function Product({ productObj }) {
     // Add current user data to productObj
     let username = currentUser.username;
     try {
-      const res = await fetch(`http://localhost:3000/user-api/add-to-cart/${username}`, {
+      const res = await fetch(`https://full-stack-project-backend-vxpi.onrender.com/user-api/add-to-cart/${username}`, {
         method: "PUT",
         headers: { "Content-type": "application/json" },
         body: JSON.stringify(productObj),
