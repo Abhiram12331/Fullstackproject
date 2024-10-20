@@ -125,7 +125,7 @@ function Cart() {
 
   async function deleteProduct(productId) {
     try {
-      const res = await fetch(`http://localhost:3000/user-api/user-cart/${productId}`, {
+      const res = await fetch(`https://full-stack-project-backend-vxpi.onrender.com/user-api/user-cart/${productId}`, {
         method: "PUT",
         headers: {
           'Content-Type': 'application/json'
