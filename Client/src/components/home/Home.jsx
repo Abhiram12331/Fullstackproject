@@ -2,7 +2,8 @@ import "./Home.css";
 
 function Home() {
   return (
-    <main id="MainSection"> 
+    <main id="MainSection">
+  
       <header>
         <div className="container ma ">
           <div className="home_header_info ma ">
