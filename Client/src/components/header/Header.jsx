@@ -8,6 +8,7 @@ import { FcStumbleupon } from "react-icons/fc";
 import { userLoginContext } from "../../contexts/userLoginContext";
 import { useContext } from "react";
 import { CgProfile } from "react-icons/cg";
+import { RiArticleLine } from "react-icons/ri";
 import { FaHome } from "react-icons/fa";
 
 
@@ -15,6 +16,7 @@ function Header() {
   let { logoutUser, userLoginStatus } = useContext(userLoginContext);
 
   return (
+    
     <div className="d-flex flex-wrap justify-content-around header">
       <h1>
         {" "}
@@ -26,6 +28,10 @@ function Header() {
             <FaHome className="fs-3 text dark" /> Home
           </Link>
         </li>
+        <li>< Link to="blog" className="nav-link text-dark">
+        <RiArticleLine className="fs-3 text-dark me-2 " />{" "}
+            Blogs and Articles
+          </Link></li>
         <li className="nav-item">
           <Link to="register" className="nav-link text-dark">
             <SiGnuprivacyguard className="fs-3 text-dark" />
@@ -55,10 +61,12 @@ function Header() {
          
 
         </li>
+       
         <li>< Link to="profile" className="nav-link text-dark">
             <CgProfile className="fs-3 text-dark me-2 " />{" "}
             Profile
           </Link></li>
+          
       </ul>
     </div>
   );

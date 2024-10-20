@@ -8,5 +8,6 @@ import UserLoginStore from './contexts/UserLoginStore'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <UserLoginStore>
     <App />
+    
   </UserLoginStore>,
 )

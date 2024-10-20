@@ -11,6 +11,7 @@ import Cart from './components/cart/Cart'
 import RoutingError from "./components/RoutingError";
 import {Navigate} from 'react-router-dom'
 import EditUser from "./components/edit-user/EditUser";
+import BlogSection from "./components/BlogSection";
 
 function App() {
   const browserRouter = createBrowserRouter([
@@ -26,6 +27,10 @@ function App() {
         {
           path: "register",
           element: <Register />,
+        },
+        {
+          path: "blog",
+          element: <BlogSection />,
         },
        
        

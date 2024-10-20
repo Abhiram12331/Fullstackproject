@@ -3,6 +3,7 @@ import './About.css'
 function About() {
   return (
     <div className='about-container'>
+      <h1 className='qq'>About us</h1>
       <div className='card'>
         <p className='jf'>
           <h2>Welcome to Heritage Chronicles – A Journey Through India’s Rich Heritage</h2>

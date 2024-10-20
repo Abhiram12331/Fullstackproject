@@ -7,8 +7,8 @@ function Home() {
         <div className="container ma ">
           <div className="home_header_info ma ">
             <h1 className="typewrite" data-period="2000" data-type='[ "Incredible!ndia", "Dekho Apna Desh!", " Explore the Indian Culture and Heritage." ]'></h1>
-            <p className="mp">India is a country dotted with stunning wildlife diversity, and rich traditions. While the Western coast greets you with mouth-watering delicacies, the East part invites you to experience its greenery.</p>
-            <a href="https://indianculture.gov.in/">Read More</a>
+            <p className="mp dd">India is a country dotted with stunning wildlife diversity, and rich traditions. While the Western coast greets you with mouth-watering delicacies, the East part invites you to experience its greenery.</p>
+            <a  className="dd" href="https://indianculture.gov.in/">Read More</a>
           </div>
         </div>
         <div className="video">
@@ -72,6 +72,7 @@ function Home() {
     </div>
   </div>
 </section>
+
 
 
     </main>

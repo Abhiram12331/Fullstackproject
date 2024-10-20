@@ -17,7 +17,7 @@ function Products() {
 
   return (
     <div>
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 ss">
+      <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 g-5 ss">
         {products.map((productObj) => (
           <div className="col" key={productObj.id}>
             <Product productObj={productObj} />
