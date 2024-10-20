@@ -6,7 +6,7 @@ function Products() {
   let [products, setProducts] = useState([]);
 
   async function getProducts() {
-    let res = await fetch("http://localhost:3000/product-api/products");
+    let res = await fetch("https://full-stack-project-backend-vxpi.onrender.com/product-api/products");
     let productsData = await res.json();
     setProducts(productsData.payload);
   }
