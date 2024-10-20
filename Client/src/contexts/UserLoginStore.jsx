@@ -11,7 +11,7 @@ function UserLoginStore({ children }) {
 
   const loginUser = async (userCred) => {
     try {
-      const res = await fetch('http://localhost:3000/user-api/login', {
+      const res = await fetch('https://full-stack-project-backend-vxpi.onrender.com', {
         method: "POST",
         headers: { "Content-Type": "application/json", },
         body: JSON.stringify(userCred),
