@@ -5,6 +5,7 @@ import { useContext } from "react";
 import { userLoginContext } from "../../contexts/userLoginContext";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import { Link} from "react-router-dom";
 
 function Login() {
   const { loginUser, userLoginStatus, err } = useContext(userLoginContext);
@@ -28,7 +29,7 @@ function Login() {
 
   return (
     <div>
-      <p className="display-3 text-center">User Login</p>
+      <p className="display-3 text-center mt-5">User Login</p>
       <div className="row">
         <div className="col-11 col-sm-10 col-md-6 mx-auto">
           {err.length !== 0 && <p className="fs-1 text-danger">{err}</p>}
@@ -45,6 +46,7 @@ function Login() {
             </div>
             <button className="btn btn-success" type="submit">Login</button>
           </form>
+          <p className="sss">Don't have an account? <Link to="/register">Register here</Link></p>
         </div>
       </div>
     </div>

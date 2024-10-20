@@ -19,7 +19,12 @@ function UserProfile() {
   }
 
   if (!currentUser) {
-    return(<Register/>);
+    return(
+    <div>
+      <h1 className="text-center text-secondary mt-5">Please register first...</h1>
+    <Register/>
+    </div>
+    );
   }
 
   return (

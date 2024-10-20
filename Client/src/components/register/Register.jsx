@@ -1,6 +1,6 @@
 import "./Register.css";
 import { useForm } from "react-hook-form";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 function Register() {
@@ -36,7 +36,7 @@ function Register() {
 
   return (
     <div>
-      <p className="display-3 text-center">User registration</p>
+      <p className="display-3 text-center mt-4">User registration</p>
       {/* registration form */}
       <div className="row ">
         <div className="col-11 col-sm-10 col-md-6 mx-auto">
@@ -133,6 +133,7 @@ function Register() {
               Register
             </button>
           </form>
+          <p className="sss">Have an account?  <Link to="/login">Click here</Link></p>
         </div>
       </div>
     </div>
