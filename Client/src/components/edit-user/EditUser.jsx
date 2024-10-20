@@ -11,7 +11,7 @@ function EditUser() {
   //save modified user after edit
     async function onSave(modifiedUser){
         console.log(modifiedUser)
-        let res = await fetch(`http://localhost:3000/user-api/user`, {
+        let res = await fetch(`https://full-stack-project-backend-vxpi.onrender.com/user-api/user`, {
             method: "PUT",
             headers: { "Content-type": "application/json" },
             body: JSON.stringify(modifiedUser),
