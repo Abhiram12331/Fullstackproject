@@ -7,7 +7,7 @@ let mClient = new MongoClient(process.env.DB_URL);
 const cors=require('cors');
 
   app.use(cors({
-    origin:'http://localhost:5173'
+    origin:'https://full-stack-project-frontend-q7a4.onrender.com'
   }))
 
 mClient.connect()
