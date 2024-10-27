@@ -340,6 +340,10 @@ section#welcome_Sec p {
     #explore-fiji p {
       font-size: 16px;
     }
+    iframe{
+        height: 380px ;
+        width:80%;
+    }
   }
   
  
@@ -354,6 +358,10 @@ section#welcome_Sec p {
     }
     #explore-fiji p {
       font-size: 14px;
+    }
+    iframe{
+        height: 380px ;
+        width:80%;
     }
   }
   
@@ -370,5 +378,37 @@ section#welcome_Sec p {
     #explore-fiji p {
       font-size: 12px;
     }
+    iframe{
+        height: 380px ;
+        width:80%;
+    }
   }
-  
+  @media (max-width: 768px) {
+    section#welcome_Sec {
+        padding: 60px 0;
+    }
+
+    section#welcome_Sec h2 {
+        font-size: 32px;
+    }
+
+    section#welcome_Sec p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    section#welcome_Sec {
+        padding: 40px 0;
+    }
+
+    section#welcome_Sec h2 {
+        font-size: 28px;
+    }
+
+    section#welcome_Sec p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
