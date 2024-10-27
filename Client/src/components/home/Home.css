@@ -279,26 +279,26 @@ section#welcome_Sec p {
   @media (max-width: 768px) {
     header {
       padding: 0 30px;
-      height: 70vh;
+      height: 55vh;
     }
     .home_header_info h1 {
-      font-size: 28px;
+      font-size: 20px;
     }
     .home_header_info p {
-      font-size: 13px;
+      font-size: 11px;
     }
   }
  
   @media (max-width: 576px) {
     header {
       padding: 0 20px;
-      height: 60vh;
+      height: 45vh;
     }
     .home_header_info h1 {
-      font-size: 24px;
+      font-size: 20px;
     }
     .home_header_info p {
-      font-size: 12px;
+      font-size: 11px;
     }
   }
   
