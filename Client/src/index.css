@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-/* reset */
+
 *{
   
   padding: 0;
@@ -9,7 +9,6 @@
   font-family: Arial;
 }
 
-/* :root matches root element */
 :root {
   --light-color: hsl(0, 0%, 93%);
   --medium-dark: hsl(210, 29%, 24%);

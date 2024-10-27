@@ -13,26 +13,31 @@ function Header() {
 
   return (
     <headerr className="header ">
-      <div className="container st d-flex align-items-center justify-content-between">
-        <h1 className="header-title">!NDIA</h1>
-        <nav className="nav">
-          <ul className="d-flex align-items-center">
-            <li className="nav-item">
-              <Link to="" className="nav-link text-dark">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container">
+  <a class="navbar-brand" href="#"><h1 className="header-title">!NDIA</h1></a>
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><Link to="" className="nav-link text-dark">
                 <FaHome className="icon" /> Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="blog" className="nav-link text-dark">
+              </Link></a>
+      </li>
+      <li class="nav-item">
+      <Link to="blog" className="nav-link text-dark mt-2">
                 <RiArticleLine className="icon" /> Blogs and Articles
               </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="register" className="nav-link text-dark">
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><Link to="register" className="nav-link text-dark">
                 <SiGnuprivacyguard className="icon" /> Register
-              </Link>
-            </li>
-            {userLoginStatus === false ? (
+              </Link></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">{userLoginStatus === false ? (
               <li className="nav-item">
                 <Link to="login" className="nav-link text-dark">
                   <FaSignInAlt className="icon" /> Login
@@ -44,20 +49,23 @@ function Header() {
                   <FaSignInAlt className="icon" /> Logout
                 </Link>
               </li>
-            )}
-            <li className="nav-item">
-              <Link to="about" className="nav-link text-dark">
+            )}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><Link to="about" className="nav-link text-dark">
                 <IoMdInformationCircle className="icon" /> About us
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="profile" className="nav-link text-dark">
+              </Link></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><Link to="profile" className="nav-link text-dark">
                 <CgProfile className="icon" /> Profile
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
+              </Link></a>
+      </li>
+      
+    </ul>
+  </div>
+  </div>
+</nav>
     </headerr>
   );
 }

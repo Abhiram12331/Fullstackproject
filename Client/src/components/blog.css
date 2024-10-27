@@ -1,23 +1,13 @@
-
-
-#BlogSection{
+#BlogSection {
     background-color: rgba(239, 239, 235, 0.584);
     padding: auto;
     margin-top: 10px;
 }
+
 .blog-content {
     display: flex;
     align-items: center;
-}
-
-.blog-info ul li {
-    display: inline-block;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #999;
-    font-size: 13px !important;
-    font-size: 0.75rem;
-    margin-right: 5px;
+    margin-bottom: 20px;
 }
 
 .blog-img {
@@ -29,23 +19,35 @@
 .blog-img img {
     height: 140px;
     width: 300px;
+    object-fit: cover;
 }
 
 .blog-info {
-    margin-left: 60px !important;
+    margin-left: 20px;
+}
+
+.blog-info ul li {
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #999;
+    font-size: 0.75rem;
+    margin-right: 5px;
 }
 
 .blog-info h4 {
     color: #00a8c5;
     font-size: 20px;
-    margin: 6px 0px;
+    margin: 6px 0;
     cursor: pointer;
 }
-.h33{
+
+.h33 {
     font-size: 50px;
     font-weight: bold !important;
     margin-top: 25px !important;
-  }
+}
+
 h3 {
     color: #343a40;
     font-size: 42px;
@@ -59,6 +61,71 @@ h3 {
     color: #777;
     font-size: 14px;
     line-height: 25px;
- 
 }
-@media screen and (max-width:950px) {}
+
+/* Responsive for Tablets */
+@media screen and (max-width: 950px) {
+    .blog-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .blog-img img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .blog-info {
+        margin-left: 0;
+    }
+    
+    .blog-info h4 {
+        font-size: 18px;
+    }
+
+    .h33 {
+        font-size: 40px;
+    }
+    
+    h3 {
+        font-size: 36px;
+    }
+}
+
+/* Responsive for Mobile Devices */
+@media screen and (max-width: 600px) {
+    .blog-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .blog-img img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .blog-info h4 {
+        font-size: 16px;
+    }
+    
+    .blog-info ul li {
+        font-size: 12px;
+    }
+
+    .blog-content p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .h33 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+}
