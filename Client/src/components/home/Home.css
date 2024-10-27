@@ -244,6 +244,7 @@ section#welcome_Sec p {
     background-attachment: fixed;
     padding: 100px 0px;
     color: #fff;
+    margin-bottom: 30px !important;
 }
 
 .explore-info h3 {
@@ -252,3 +253,122 @@ section#welcome_Sec p {
     letter-spacing: 1px;
     margin-bottom: 50px;
 }
+/* Large screens (desktops) */
+@media (max-width: 1200px) {
+    header {
+      padding: 0 100px;
+      height: 90vh;
+    }
+  }
+  
+  /* Medium screens (small laptops, tablets) */
+  @media (max-width: 992px) {
+    header {
+      padding: 0 50px;
+      height: 80vh;
+    }
+    .home_header_info h1 {
+      font-size: 35px;
+    }
+    .home_header_info p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Small screens (tablets in portrait mode) */
+  @media (max-width: 768px) {
+    header {
+      padding: 0 30px;
+      height: 70vh;
+    }
+    .home_header_info h1 {
+      font-size: 28px;
+    }
+    .home_header_info p {
+      font-size: 13px;
+    }
+  }
+ 
+  @media (max-width: 576px) {
+    header {
+      padding: 0 20px;
+      height: 60vh;
+    }
+    .home_header_info h1 {
+      font-size: 24px;
+    }
+    .home_header_info p {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    header {
+      padding: 0 10px;
+      height: 50vh;
+    }
+    .home_header_info h1 {
+      font-size: 20px;
+    }
+    .home_header_info p {
+      font-size: 11px;
+    }
+  }
+  @media (max-width: 1200px) {
+    #explore-fiji {
+      padding: 80px 0;
+    }
+  }
+  
+  
+  @media (max-width: 992px) {
+    #explore-fiji {
+      padding: 70px 20px;
+      background-attachment: scroll;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    #explore-fiji {
+      padding: 60px 15px;
+      background-attachment: scroll;
+    }
+    #explore-fiji h1 {
+      font-size: 28px;
+    }
+    #explore-fiji p {
+      font-size: 16px;
+    }
+  }
+  
+ 
+  @media (max-width: 576px) {
+    #explore-fiji {
+      padding: 50px 10px;
+      background-size: cover;
+      background-position: center;
+    }
+    #explore-fiji h1 {
+      font-size: 24px;
+    }
+    #explore-fiji p {
+      font-size: 14px;
+    }
+  }
+  
+
+  @media (max-width: 400px) {
+    #explore-fiji {
+      padding: 40px 5px;
+      background-size: cover;
+      background-position: center;
+    }
+    #explore-fiji h1 {
+      font-size: 20px;
+    }
+    #explore-fiji p {
+      font-size: 12px;
+    }
+  }
+  

@@ -26,3 +26,8 @@
 .icon:hover {
   color: #ff6600;
 }
+@media (min-width: 768px) { /* Adjust the min-width as per your definition of medium */
+  .cc {
+    margin-left: 200px !important;
+  }
+}
