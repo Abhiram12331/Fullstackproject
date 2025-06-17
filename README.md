@@ -1,0 +1,2 @@
+Heritage Chronicles is a full-stack web application dedicated to showcasing the rich and diverse cultural heritage of India. From ancient traditions and historical monuments to regional art, dance, festivals, and folklore, this platform brings India's vibrant legacy to a digital audience. Built with a focus on interactivity, scalability, and cultural preservation, the project aims to educate and inspire users through immersive content and user-driven exploration.
+
